@@ -77,7 +77,6 @@ objects:
 parameters:
   - name: HUB_ROUTE
     description: Route name for the Selenium Hub
-    value: ""
   - name: JAVA_OPTS
     description: Options to pass to the java command
     value: "-Xmx512m"
