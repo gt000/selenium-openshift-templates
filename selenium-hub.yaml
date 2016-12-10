@@ -71,6 +71,8 @@ objects:
     name: selenium-hub
   spec:
     host: ${HUB_ROUTE}
+    port:
+      targetPort: 4444
     to:
       kind: Service
       name: selenium-hub
