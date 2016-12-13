@@ -8,7 +8,7 @@ metadata:
     tags: "selenium,node,chrome"
 objects:
 - apiVersion: v1
-  kind: ReplicationController
+  kind: DeploymentConfig
   metadata:
     name: selenium-node-chrome
   spec:
