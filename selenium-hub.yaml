@@ -13,7 +13,7 @@ objects:
     name: selenium-hub
   spec:
     selector:
-      type: hub
+      type: selenium-hub
     type: ClusterIP
     ports:
     - name: web
